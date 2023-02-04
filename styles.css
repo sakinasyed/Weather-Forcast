@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url("https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_960_720.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+section {
+  padding: 3rem 5rem;
+  display: flex;
+}
+.container {
+  margin: 1rem;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgba(0, 0, 0, 0.44);
+  color: #fff;
+  padding: 1rem;
+}
+
+#cloud-img {
+  height: 200px;
+}
+form {
+  margin-top: 3rem;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+p {
+  font-size: 20px;
+}
+.whether-main {
+  text-align: center;
+}
+.whether-box {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+.whether-box > div {
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+}
+.div-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

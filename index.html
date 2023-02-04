@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <link rel="stylesheet" href="styles.css">
+       
+</head>
+<body>
+    <section >
+        <div class="container">
+            <h2>Whether API</h2>
+            <hr/>
+            <form class="example"  style="display: flex;border-radius: 25px;overflow: hidden;">
+              <input type="text" id="cityname" placeholder="Search.." name="search2">
+              <button id="btn">Search</button>
+              <button id="clear-btn">Clear</button>
+            </form>
+        </div>
+        <div class="container">
+            <div class="div-center">
+                <img id="cloud-img" src="https://freesvg.org/img/GMcGlinn-cloud-Rainbow.png"></img>
+                <div class="whether-main"></div>
+            </div> 
+            <div class="whether-box"></div>
+        </div>
+    </section>
+   
+   
+   <script src="index.js"></script>
+</body>
+</html>
